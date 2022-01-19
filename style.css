@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Bring ur html tags into visibility => backgroubng  color */
+
+.topbar-cont {
+    /* background-color: lightblue; */
+    display: flex;
+    /* want space in between */
+    justify-content: space-between;
+}
+
+.title-cont {
+    /* background-color: lightcoral; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-cont {
+    /* background-color: lightsalmon; */
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-cont:hover {
+    /* background-color: lightgreen; */
+    color: brown;
+    cursor: pointer;
+}
+
+.image-cont {
+    width: 98vw;
+    height: 98vh;
+    margin-bottom: 2rem;
+}
+
+.image-content {
+    width: 100%;
+    height: 100%;
+}
+
+.content-cont {
+    display: flex;
+    text-align: center;
+}
+
+.similar-cont > img {
+    width: 4rem;
+}
+
+.copyright-cont {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
